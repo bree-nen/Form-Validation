@@ -1,1 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration form</title>
+</head>
+<body>
 
+<h2>Registration Form</h2>
+
+  <form action="info.php"method="post">
+
+    <form><label for="user id">User id:</label>
+      <input type="text" id="user id" name="user_user id" required></form>
+  <br>
+    <form><label for="password">Password:</label>
+      <input type="password" id="password" name="user_password" required></form>
+  <br>
+    <form><label for="name">Name:</label>
+      <input type="text" id="name" name="user_name" required></form>
+  <br>
+      <form><label for="address">Address:</label>
+        <input type="text" id="address" name="user_addresss" Optional></form>  
+  <br>
+
+    <li><label for="country">Country:</label>
+      <select id="country" name="country">
+        <option 
+         value="Afganistan">Afganistan</option>
+         <option value="Albania">Albania</option>
+         <option value="Algeria">Algeria</option>
+         <option value="American Samoa">American Samoa</option>
+         <option value="Andora">Andora</option>
+         <option value="Botswana">Botswana</option>
+         <option value="Cape Town">Cape Town</option>
+         <option value="China">China</option>
+         <option value="Cuba">Cuba</option>
+         <option value="Dominica">Dominica</option>
+         <option value="Egypt">Egypt</option>
+         <option value="France">France</option>
+         <option value="Germany">Germany</option>
+         <option value="Hawaii">Hawaii</option>
+         <option value="India">India</option>
+         <option value="Japan">Japan</option>
+         <option value="Kenya">Kenya</option>
+         <option value="Lesotho">Lesotho</option>
+         <option value="Madagascar">Madagascar</option>
+         <option value="Mozambique">Mozambique</option>
+         <option value="Nigeria">Nigeria</option>
+         <option value="Pakisatan">Pakisatan</option>
+         <option value="Qatar">Qatar</option>
+         <option value="Russia">Russia</option>
+         <option value="South Africa">South Africa</option>
+         <option value="Tanzania">Tanzania</option>
+         <option value="United Kingdom">United Kingdom</option>
+         <option value="United States Of America">United States Of America</option>
+         <option value="Vietnam">Vietnam</option>
+         <option value="Wake Island">Wake Island</option>
+         <option value="Yemen">Yemen</option>
+         <option value="Zambia">Zambia</option>
+         <option value="Zimbabwe">Zimbabwe</option>
+
+      </select>
+    </li>
+
+  <br>
+    <form><label for="zip code">ZIP Code:</label>
+        <input type="number" id="zip code" name="user_zip code" required>
+    </form>  
+  <br>
+
+    <form><label for="email">Email</label>
+      <input type="text" id="mail" name="user_mail" required>
+    </form>    
+  <br>
+
+    <form>
+    <label for="sex">Sex:</label>
+    <input type="radio" name="sex" value="male">Male 
+    <input type="radio" name="sex" value="female">Female
+    </form>
+  <br>
+
+    <form>
+      <label for="language">Language:</label>
+      <input type="radio" name="language" value="english">English
+      <input type="radio" name="language" value="non english"> Non English
+    </form>
+    
+ <br>
+
+    <form><label for="about">About:</label>
+      <textarea id="about"name="user_about"></textarea></form> 
+ <br>
+      <input type="submit" value="Submit"/>
+
+  </form>
+  
+
+
+</body>
+</html>
